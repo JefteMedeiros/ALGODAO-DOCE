@@ -1,3 +1,6 @@
+
+import React from 'react';
+
 import Head from "next/head";
 
 import Slider from '../../components/slider'
@@ -16,11 +19,14 @@ import Activities from '../../components/activities'
 
 import Footer from "../../components/footer";
 
+import Partners from '../../components/partners'
+
 import LayoutFragment from "../../components/layout";
 
+import Script from 'next/script'
 
-const home: React.FC = () => {
 
+const home = () => {
   return (
     <>
       <Head>
@@ -35,7 +41,9 @@ const home: React.FC = () => {
         <Classes/>
         <After_Hours/>
         <Activities/>
+        <Partners/>
         <Footer/>
+        <Script src='/services/chat.js'/>
       </LayoutFragment>
     </>
   );

@@ -49,6 +49,8 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
             rel="stylesheet"
           />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap" />
           <title>Algodão Doce Canoas - Home</title>
         </Head>
         <body>

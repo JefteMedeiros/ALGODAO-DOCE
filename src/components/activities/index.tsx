@@ -13,7 +13,7 @@ const activities: React.FC = () => {
         </CardImageTop>
         <CardImageTop>
           <img src="images/activity2.png" alt="Bebê" />
-          <p>Ginástica</p>
+          <p>Ginastica</p>
         </CardImageTop>
         <CardImageTop>
           <img src="images/activity3.png" alt="Bebê" />
@@ -22,10 +22,6 @@ const activities: React.FC = () => {
         <CardImageTop>
           <img src="images/activity4.png" alt="Bebê" />
           <p>Idiomas</p>
-        </CardImageTop>
-        <CardImageTop>
-          <img src="images/activity5.png" alt="Bebê" />
-          <p>Informática</p>
         </CardImageTop>
       </Box>
     </Container>

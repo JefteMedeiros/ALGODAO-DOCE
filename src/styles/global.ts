@@ -1,10 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-  
-  @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
-  
   * {
     margin: 0;
     padding: 0;
@@ -22,7 +18,7 @@ export default createGlobalStyle`
   }
 
   ::-webkit-scrollbar-track {
-    background-color: #F1F1F1;
+    background-color: #F4F4F4;
   }
 
   ::-webkit-scrollbar-thumb {
