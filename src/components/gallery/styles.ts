@@ -6,7 +6,7 @@ export const Container = styled.div`
   padding-top: 2%;
 `;
 
-export const SectionImg = styled.div `
+export const SectionImg = styled.div`
   text-align: center;
   outline: none;
 

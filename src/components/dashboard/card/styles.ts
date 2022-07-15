@@ -14,7 +14,7 @@ export const Card = styled.div`
   min-height: 200px;
   padding: 20px;
   border-radius: 20px;
-  background-color: #EFEFEF;
+  background-color: #efefef;
 
   h1 {
     color: #44a3d9;
@@ -24,18 +24,18 @@ export const Card = styled.div`
 
   p {
     width: 100%;
-    color: #de80D0;
+    color: #de80d0;
   }
-  
+
   button {
     align-self: flex-start;
   }
 
   & > div {
-    border-bottom: 1px solid #DE80B0;
+    border-bottom: 1px solid #de80b0;
   }
 
-  @media screen and (max-width: 685px){
+  @media screen and (max-width: 685px) {
     width: 100%;
   }
 `;
@@ -48,7 +48,7 @@ export const BtnPink = styled.a`
   border-radius: 5px;
   padding: 5px 15px;
   border: none;
-  background-color: #DE80B0;
+  background-color: #de80b0;
 
   &:hover {
     transition: 0.1s ease-in-out;

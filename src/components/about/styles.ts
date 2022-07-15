@@ -12,7 +12,7 @@ export const Grid = styled.div`
 `;
 
 export const About = styled.div`
-  background-color: #FFF;  
+  background-color: #fff;
   padding: 30px 50px;
   @media screen and (max-width: 850px) {
     padding: 30px;
@@ -23,9 +23,9 @@ export const Image = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  img{
-    width: 50%
+
+  img {
+    width: 50%;
   }
 
   @media screen and (max-width: 1280px) {
@@ -79,7 +79,6 @@ export const BtnPink = styled.a`
     font-size: 0.8rem;
     padding: 10px 10px;
   }
-
 `;
 
 export const BtnBlue = styled(BtnPink)`
@@ -90,5 +89,4 @@ export const BtnBlue = styled(BtnPink)`
     transition: all 0.1s ease-in-out;
     transform: scale(1.03);
   }
-
 `;

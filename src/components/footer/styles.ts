@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Icons = styled.ul`
   display: flex;
@@ -15,7 +15,7 @@ export const FooterBottom = styled.div`
   text-align: center;
   padding: 5px 0;
   color: #fff;
-  background-color: #BE80D0;
+  background-color: #be80d0;
 `;
 
 export const SocialIcon = styled.a`

@@ -2,29 +2,17 @@ import React from 'react';
 
 import { useRouter } from 'next/router';
 
-import { LogOut } from '../header/styles'; 
+import { LogOut } from '../header/styles';
 
-import { 
-  SidebarContainer, 
-  Icon, 
-  CloseIcon, 
-  SidebarWrapper, 
-  SidebarMenu, 
-  SidebarLink, 
-  SideBtnWrap, 
-  SidebarRoute,
-  Logo,
-} from './styles';
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute, Logo } from './styles';
 
-
-
-const sidebar = ( { isOpen, toggle } ) => {
+const sidebar = ({ isOpen, toggle }) => {
   const router = useRouter();
-  
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
-      <Icon onClick={toggle} >
-        <CloseIcon/>
+      <Icon onClick={toggle}>
+        <CloseIcon />
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
@@ -37,11 +25,14 @@ const sidebar = ( { isOpen, toggle } ) => {
           <SidebarLink>Voltar</SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute><LogOut/>Sair</SidebarRoute>
+          <SidebarRoute>
+            <LogOut />
+            Sair
+          </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
-    </SidebarContainer>      
+    </SidebarContainer>
   );
-}
+};
 
 export default sidebar;

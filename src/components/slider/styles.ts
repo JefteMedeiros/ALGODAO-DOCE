@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-
-export const SliderItem = styled.div` 
+export const SliderItem = styled.div`
   text-align: center;
   display: flex;
   justify-content: center;
@@ -9,9 +8,8 @@ export const SliderItem = styled.div`
 
   height: 600px;
 
-  @media(max-width: 800px) {
-   height: 17vh;
-   width: 100vw;
+  @media (max-width: 800px) {
+    height: 17vh;
+    width: 100vw;
   }
-
 `;

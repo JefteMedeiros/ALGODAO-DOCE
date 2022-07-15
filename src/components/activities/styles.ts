@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-color: #26C7D9;
+  background-color: #26c7d9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,10 +22,9 @@ export const Container = styled.div`
   @media screen and (max-width: 500px) {
     padding: 5% 0;
   }
-
 `;
 
-export const Box = styled.div `
+export const Box = styled.div`
   display: flex;
   height: 75%;
   width: 100%;
@@ -45,7 +44,7 @@ export const Box = styled.div `
   }
 `;
 
-export const CardImageTop = styled.div `
+export const CardImageTop = styled.div`
   display: flex;
   height: 90%;
   width: 30%;
@@ -53,11 +52,11 @@ export const CardImageTop = styled.div `
   align-items: center;
   justify-content: center;
 
-  img{
+  img {
     width: 70%;
   }
 
-  p{
+  p {
     margin-top: 2rem;
     font-size: 1.3rem;
   }
@@ -67,6 +66,4 @@ export const CardImageTop = styled.div `
       width: 150%;
     }
   }
-
-`
-
+`;

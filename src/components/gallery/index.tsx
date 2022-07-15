@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import Slider from "react-slick";
+import Slider from 'react-slick';
 
-import { settings } from "../../utils/galleryslider";
+import { settings } from '../../utils/galleryslider';
 
-import { Container, SectionImg} from "./styles";
+import { Container, SectionImg } from './styles';
 
 const Gallery: React.FC = () => {
   return (

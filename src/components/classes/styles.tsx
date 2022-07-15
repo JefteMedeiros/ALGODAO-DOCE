@@ -57,7 +57,7 @@ export const TurmaSection = styled.div`
   @media screen and (max-width: 600px) {
     gap: 50px;
   }
-  
+
   @media screen and (max-width: 460px) {
     gap: 20px;
     flex-wrap: wrap;
@@ -82,5 +82,3 @@ export const Description = styled.p`
   padding-bottom: 15px;
   font-size: 1rem;
 `;
-
-

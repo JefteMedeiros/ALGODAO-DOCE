@@ -16,12 +16,11 @@ export const InfoContainer = styled.div`
   margin: 30px;
   gap: 30px;
 
-  @media screen and (max-width: 985px) {
+  @media screen and (max-width: 1060px) {
     justify-content: center;
   }
 
-  @media screen and (max-width: 685px){
+  @media screen and (max-width: 685px) {
     flex-direction: column;
   }
-
 `;

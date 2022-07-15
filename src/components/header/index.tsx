@@ -1,41 +1,31 @@
 import React, { useState } from 'react';
 
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/router';
 
-import {
-  Nav,
-  NavLink,
-  Hamburger,
-  Calendar,
-  NavMenu,
-  NavBtn,
-  NavBtnLink,
-  NavLogo
-} from './styles';
+import { Nav, NavLink, Hamburger, Calendar, NavMenu, NavBtn, NavBtnLink, NavLogo } from './styles';
 
-import Modal from '../modal'
+import Modal from '../modal';
 
-const Navbar = ( { toggle } ) => {
-
+const Navbar = ({ toggle }) => {
   const [openModal, setOpenModal] = useState(false);
 
-  const router = useRouter()
+  const router = useRouter();
 
   const HandleRedirectButton = () => {
     router.push('/dashboard');
-  }
+  };
 
   const setOpenHandleModal = () => {
     router.push('https://api.whatsapp.com/send?phone=555551982599753&text=Ol%C3%A1%20gostaria%20de%20agendar%20uma%20visita%21');
-  }
+  };
 
   return (
     <>
       <Nav id="header" className="header">
-        <NavLogo href='/'>
+        <NavLogo href="/">
           <img src="images/logo.webp" alt="Logo algodão doce canoas" />
         </NavLogo>
-        <Hamburger onClick={toggle}/>
+        <Hamburger onClick={toggle} />
         <NavMenu>
           <NavLink to="home" smooth={true} duration={500} offset={-50}>
             Home
@@ -49,17 +39,15 @@ const Navbar = ( { toggle } ) => {
           <NavLink to="classes" smooth={true} duration={500} offset={-130}>
             Turmas
           </NavLink>
-          <NavLink onClick={() => HandleRedirectButton()}>
-            Restrito
-          </NavLink>
+          <NavLink onClick={() => HandleRedirectButton()}>Restrito</NavLink>
         </NavMenu>
         <NavBtn>
           <NavBtnLink onClick={() => setOpenHandleModal()}>
-          <Calendar/> Agende sua visita
+            <Calendar /> Agende sua visita
           </NavBtnLink>
         </NavBtn>
       </Nav>
-      { openModal && <Modal closeModal={setOpenModal} />}
+      {openModal && <Modal closeModal={setOpenModal} />}
     </>
   );
 };

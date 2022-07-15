@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
   * {
@@ -26,4 +26,4 @@ export default createGlobalStyle`
     background-image: linear-gradient(#44A3D9, #DE80B0) ;
   }
 
-`
+`;

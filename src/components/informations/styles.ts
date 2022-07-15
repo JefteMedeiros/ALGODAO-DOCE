@@ -23,7 +23,7 @@ export const FlexContainer = styled.div`
   @media screen and (max-width: 1280px) {
     max-width: 100%;
     margin: 20px 40px;
-    
+
     img {
       display: none;
     }

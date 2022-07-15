@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { FaBars } from 'react-icons/fa';
 
-import { FiLogOut } from 'react-icons/fi'
+import { FiLogOut } from 'react-icons/fi';
 
 export const Container = styled.div`
   display: flex;
@@ -39,8 +39,8 @@ export const Hamburger = styled(FaBars)`
   display: none;
   color: black;
 
-  @media screen and (max-width: 985px) {
-    color: #DE80B0;
+  @media screen and (max-width: 1060px) {
+    color: #de80b0;
     display: block;
     position: absolute;
     top: 5px;
@@ -55,7 +55,6 @@ export const LogOut = styled(FiLogOut)`
   margin-right: 10px;
 `;
 
-
 export const Disconnect = styled.a`
   margin: 0 15px;
   color: #44a3d9;
@@ -63,13 +62,13 @@ export const Disconnect = styled.a`
   font-size: 1.5rem;
 
   &:hover {
-    color: #DE80B0;
+    color: #de80b0;
     transition: 0.1s ease-in-out;
     transform: scale(1.02);
     cursor: pointer;
   }
 
-  @media screen and (max-width: 985px) {
+  @media screen and (max-width: 1060px) {
     display: none;
   }
 `;

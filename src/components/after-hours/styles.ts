@@ -19,7 +19,7 @@ export const Container = styled.div`
   }
 `;
 
-export const Paragraph =  styled.p`
+export const Paragraph = styled.p`
   font-weight: bold;
   font-size: 1.2rem;
   padding-bottom: 2.5rem;
@@ -31,7 +31,7 @@ export const Paragraph =  styled.p`
     width: 100%;
   }
 
-  @media screen and (max-width: 460px){
+  @media screen and (max-width: 460px) {
     font-size: 1rem;
   }
 `;
@@ -46,8 +46,8 @@ export const Content = styled.div<Props>`
   margin: 0px 0;
   width: 50%;
   height: 100%;
-  justify-content: ${props => props.bg_align == 'center' ? 'center' : 'flex-start'};
-  align-items: ${props => props.bg_align == 'center' ? 'center' : 'flex-start'};
+  justify-content: ${props => (props.bg_align == 'center' ? 'center' : 'flex-start')};
+  align-items: ${props => (props.bg_align == 'center' ? 'center' : 'flex-start')};
 
   img {
     max-width: 85%;

@@ -17,7 +17,7 @@ export const ModalContainer = styled.div`
   margin: 0 25px;
   border-radius: 12px;
   background-color: white;
-  box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
   padding: 25px;
@@ -41,7 +41,7 @@ export const ModalContainer = styled.div`
   input {
     padding: 10px 20px;
     border-radius: 5px;
-    border: 2px solid #44A3D9;
+    border: 2px solid #44a3d9;
 
     &:last-child {
       margin-bottom: 5%;
@@ -49,26 +49,26 @@ export const ModalContainer = styled.div`
   }
 `;
 
-export const TitleCloseBtn = styled.div `
-    display: flex;
-    justify-content: flex-end;
+export const TitleCloseBtn = styled.div`
+  display: flex;
+  justify-content: flex-end;
 
-    button {
-        background-color: transparent;
-        border: none;
-        color: #44a3d9;
-        font-size: 25px;
+  button {
+    background-color: transparent;
+    border: none;
+    color: #44a3d9;
+    font-size: 25px;
 
-        &:hover {
-          transition: 0.1s ease-in-out;
-          color: #DE80B0;
-          cursor: pointer;
-        }
+    &:hover {
+      transition: 0.1s ease-in-out;
+      color: #de80b0;
+      cursor: pointer;
     }
+  }
 `;
 
 export const Title = styled.div`
-  color: #DE80B0;
+  color: #de80b0;
   display: inline-block;
   font-size: 0.8rem;
   text-align: center;

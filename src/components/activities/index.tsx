@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { Container, Box, CardImageTop } from "./styles";
+import { Container, Box, CardImageTop } from './styles';
 
 const activities: React.FC = () => {
   return (

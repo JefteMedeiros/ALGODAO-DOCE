@@ -15,11 +15,12 @@ export const Aside = styled.div`
   width: 13%;
   height: 100vh;
 
-  @media screen and (max-width: 985px) {
-   display: none;
+  @media screen and (max-width: 1060px) {
+    display: none;
   }
 
-  h1, p {
+  h1,
+  p {
     padding: 15px;
     width: 100%;
     text-align: center;
@@ -46,8 +47,8 @@ export const SectionContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  
-  section {  
+
+  section {
     border-bottom: 1.5px solid white;
   }
 `;

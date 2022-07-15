@@ -1,49 +1,47 @@
-
 import React from 'react';
 
-import Head from "next/head";
+import Head from 'next/head';
 
-import Slider from '../../components/slider'
+import Slider from '../../components/slider';
 
-import About from '../../components/about'
+import About from '../../components/about';
 
-import Gallery from '../../components/gallery'
+import Gallery from '../../components/gallery';
 
-import Informations from "../../components/informations";
+import Informations from '../../components/informations';
 
-import Classes from "../../components/classes";
+import Classes from '../../components/classes';
 
-import After_Hours from '../../components/after-hours'
+import After_Hours from '../../components/after-hours';
 
-import Activities from '../../components/activities'
+import Activities from '../../components/activities';
 
-import Footer from "../../components/footer";
+import Footer from '../../components/footer';
 
-import Partners from '../../components/partners'
+import Partners from '../../components/partners';
 
-import LayoutFragment from "../../components/layout";
+import LayoutFragment from '../../components/layout';
 
-import Script from 'next/script'
-
+import Script from 'next/script';
 
 const home = () => {
   return (
     <>
       <Head>
         <title>Algodão Doce Canoas | Página Principal</title>
-        <link rel="shortcut icon" href="icons/logo.ico"/>    
+        <link rel="shortcut icon" href="icons/logo.ico" />
       </Head>
       <LayoutFragment>
-        <Slider/>
-        <About/>
-        <Gallery/>
-	      <Informations/>
-        <Classes/>
-        <After_Hours/>
-        <Activities/>
-        <Partners/>
-        <Footer/>
-        <Script src='/services/chat.js'/>
+        <Slider />
+        <About />
+        <Gallery />
+        <Informations />
+        <Classes />
+        <After_Hours />
+        <Activities />
+        <Partners />
+        <Footer />
+        <Script src="/services/chat.js" />
       </LayoutFragment>
     </>
   );
